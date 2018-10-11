@@ -1,0 +1,33 @@
+.wrapper {
+    background-color: black;
+    display:flex;
+    justify-content:row;
+    align-items: flex-start
+}
+
+.box {
+    border-color: black;
+    border-width: thin;
+    background-color: white;
+}
+
+#box1, #box12, #box17, #box21, #box26, #box30, #box31, #box34, #box44 {
+    width: 12.5%;
+    padding-top: 8.33%;
+}
+
+#box2, #box7, #box37, #box43 {
+    width: 20.83%;
+    padding-top: 8.33%;
+}
+
+#box3, #box20, #box27 {
+    width: 16.67%;
+    padding-top: 8.33%;
+}
+
+#box4, #box10, #box11, #box40 {
+    width: 16.67%;
+    padding-top: 16.67%;
+}
+
