@@ -101,8 +101,9 @@
     padding: 0;
     margin: 1%;
     list-style: none;
-    width: 60%;
-    align-self:center;
+    width: 80%;
+    align-content:center;
+    margin:0 auto 0 auto;
 
     display:flex;
     flex-flow: row wrap;
@@ -122,7 +123,19 @@
     padding-top:12.5%;
 }
 
+@media screen and (max-width: 500px) {
+    .box1 {background-color: rgb(182, 22, 182);}
+    .box2 {background-color: plum;}
+}
 
+@media screen and (max-width: 800px) and (min-width: 501px) {
+    .box1 {background-color: green;}
+    .box2 {background-color: greenyellow;}
+}
 
+@media screen and (min-width: 1000px) {
+    .box1 {background-color: rgb(8, 65, 236);}
+    .box2 {background-color:skyblue;}
+}
 
 </style>

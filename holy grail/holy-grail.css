@@ -2,9 +2,8 @@
     border:5px solid black;
     background-color:yellowgreen;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 800px;
-    overflow: auto;
-    margin: 30px 15px 30px 15px;
+    width: 100%;
+    margin: 30px 30px 30px 30px;
 
     display: flex;
     justify-content: flex-start;
@@ -81,4 +80,39 @@
 .rowbox3 p {
     margin:0 0 0 0;
     vertical-align: center;
+}
+
+@media screen and (min-width: 1001px) {
+    body {background-color: purple;}
+    .rowbox3 {
+        flex: 2;
+    }
+
+    .row2 {
+        flex: 5;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    body {
+        background-color: blue;
+    }
+
+    .rowbox3 {
+        display: none;
+    }
+
+    .rowbox2 {
+        flex: 7;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    body {
+        background-color: greenyellow;
+    }
+    .columnbox2 {
+        display: flex;
+        flex-direction: column;
+    }
 }
